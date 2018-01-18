@@ -45,7 +45,7 @@ Let `F(n)` be the `n`-th Fibonacci number. We have:
 * `F(6)` = 8
 * and so on.
 
-Using only `0` and `1` as digits, we can represent the number decimal number `10` in base-Fib as `10010` where the leftmost position corresponds to the Fibonacci number 8 and the rightmost position corresponds to the Fibonacci number 1. The decimal number `9` in base-Fib would be `10001`. **Note that in this context, we will always pick the representation that uses the larger Fibonacci numbers rather than the next two smaller ones.**
+Using only `0` and `1` as digits, we can represent the decimal number `10` in base-Fib as `10010` where the leftmost position corresponds to the Fibonacci number 8 and the rightmost position corresponds to the Fibonacci number 1. The decimal number `9` in base-Fib would be `10001`. **Note that in this context, we will always pick the representation that uses the larger Fibonacci numbers rather than the next two smaller ones.**
 
 Given a decimal number `a`, we can represent it in base-Fib and then we can interpret the base-Fib number as a binary number. In the case of the decimal number `10`, the base-Fib representation is `10010` and if we were to interpret this as a binary number then we would get `18` as the corresponding decimal.
 
